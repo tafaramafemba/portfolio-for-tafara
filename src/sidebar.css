@@ -8,6 +8,10 @@
   padding-top: 150px;
 }
 
+ul {
+  position: fixed;
+}
+
 .row {
   font-family: 'Montserrat', sans-serif;
   width: 100%;
