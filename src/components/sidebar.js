@@ -23,6 +23,7 @@ function Sidebar() {
             <Link style={{textDecoration: 'none'}} to="/contact">
             <li className = 'row'><div><ContactPageIcon /></div><div>Get in touch with me</div></li>
             </Link>
+            <p className='footertext'>Created by Tafara Mafemba</p>
       </ul>
     </div>
   )
