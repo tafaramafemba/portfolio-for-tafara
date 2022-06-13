@@ -10,10 +10,10 @@
 
 ul {
   position: fixed;
-  animation: slideIn 1.5s ease-in-out forwards;
+  /* animation: slideIn 1.5s ease-in-out forwards; */
 }
 
-@keyframes slideIn {
+/* @keyframes slideIn {
   0% {
     transform: translateX(500px) scale(0.2);
   }
@@ -21,7 +21,7 @@ ul {
   100% {
     transform: translateX(0) scale(1);
   }
-}
+} */
 
 .row {
   font-family: 'Montserrat', sans-serif;

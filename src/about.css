@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@900&display=swap');
+
+/* .about-me {
+  width: 850px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  border-right: 1px solid orange;
+  border-left: 1px solid orange;
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+
+.about-me {
+  border-radius: 15px;
+  width: 600px;
+  background: orange;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+  font-weight: 900;
+  font-family: arial;
+  position: relative;
+}
+
+.recruiter {
+  margin-left: 310px;
+  border-radius: 15px;
+  width: 600px;
+  background: #00bfb6;
+  color: #fff;
+  /* padding: 20px; */
+  text-align: center;
+  font-weight: 900;
+  font-family: arial;
+  position: relative;
+}
+
+.sb1 {
+  content: "";
+  border-right: 15px solid transparent;
+  border-top: 15px solid #00bfb6;
+  border-bottom: 15px solid transparent;
+}
+
+.sb {
+  content: "";
+  border-left: 15px solid transparent;
+  border-top: 15px solid orange;
+  border-bottom: 15px solid transparent;
+}
+
+.back {
+  width: 70%;
+}
+
+.grounding {
+  padding-left: 20px;
+  background: linear-gradient(-45deg, #1d1d1d, #d2d2d2, #d3d3d3, #4d4d4d);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100%;
+  width: 98.9%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.languages-img {
+  width: 500px;
+}
+
+.profession {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.name {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about-img {
+  width: 250px;
+  height: 250px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
