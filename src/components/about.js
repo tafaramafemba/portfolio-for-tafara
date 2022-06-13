@@ -3,7 +3,7 @@ import '../about.css'
 
 function About() {
   return (
-    <div className='grounding'>
+    <div>
       <div className='about-container'>
         <img src='about-image.png' alt='about-me-image' className='about-img' />
         <div className='text-container'>
