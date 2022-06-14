@@ -9,7 +9,7 @@
   margin-left: 20px;
   text-align: left;
   font-weight: 900;
-  font-family: arial;
+  font-family: arial, sans-serif;
   position: relative;
 }
 
@@ -19,11 +19,9 @@
   width: 600px;
   background: #00bfb6;
   color: #fff;
-
-  /* padding: 20px; */
   text-align: center;
   font-weight: 900;
-  font-family: arial;
+  font-family: arial, sans-serif;
   position: relative;
 }
 

@@ -10,19 +10,7 @@
 
 ul {
   position: fixed;
-
-  /* animation: slideIn 1.5s ease-in-out forwards; */
 }
-
-/* @keyframes slideIn {
-  0% {
-    transform: translateX(500px) scale(0.2);
-  }
-
-  100% {
-    transform: translateX(0) scale(1);
-  }
-} */
 
 .row {
   font-family: 'Montserrat', sans-serif;
@@ -58,4 +46,22 @@ ul {
   font-family: 'lato', sans-serif;
   padding-left: 30px;
   font-style: italic;
+}
+
+.social-media {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.icon {
+  color: #fff;
+  cursor: url('/public/cursor.png'), pointer;
+}
+
+.icon:hover {
+  color: orange;
+  cursor: url('/public/hand-cursor.png'), pointer;
 }

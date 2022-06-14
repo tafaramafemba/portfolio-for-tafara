@@ -4,6 +4,9 @@ import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from '@mui/icons-material/Person';
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import { Link } from 'react-router-dom';
 
 function Sidebar() {
@@ -24,7 +27,13 @@ function Sidebar() {
             <li className = 'row'><div><ContactPageIcon /></div><div>Get in touch with me</div></li>
             </Link>
             <p className='footertext'>Created by Tafara Mafemba</p>
+      <ul className='social-media'>    
+        <li className='icon'><a href='https://www.linkedin.com/in/tafara-mafemba/' className='icon'><LinkedInIcon /></a></li>
+        <li><a href='https://github.com/tafaramafemba/' className='icon'><GitHubIcon /></a></li>
+        <li><a href='https://twitter.com/the_real_you___' className='icon'><TwitterIcon /></a></li>
       </ul>
+      </ul>
+      
     </div>
   )
 }

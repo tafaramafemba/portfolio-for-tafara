@@ -1,0 +1,26 @@
+.project-container {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(-45deg, #1d1d1d, #d2d2d2, #d3d3d3, #4d4d4d);
+  animation: gradient 15s ease infinite;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+
+.separator {
+  display: flex;
+  flex-direction: column;
+}
