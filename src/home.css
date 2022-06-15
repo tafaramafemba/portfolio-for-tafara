@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@900&family=Special+Elite&display=swap');
+
+body {
+  background: linear-gradient(-45deg, #1d1d1d, #d2d2d2, #d3d3d3, #4d4d4d);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100%;
+  width: 98.9%;
+  cursor: url('/public/cursor.png'), auto;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  cursor: url('/public/cursor.png'), auto;
+}
+
+.hello {
+  align-self: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 50px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from,
+  to { border-color: transparent; }
+  50% { border-color: orange; }
+}
+
+.name-is {
+  align-self: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 25px;
+  padding-top: 15px;
+  text-align: left;
+}
+
+.tafara-maf {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  font-family: 'Special Elite', cursive;
+  font-size: 25px;
+  padding-top: 15px;
+  text-align: left;
+  white-space: nowrap;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.tafara_img {
+  padding-top: 62px;
+  height: 90vh;
+  width: 32vw;
+  justify-items: end;
+  cursor: url("/public/cursor.png"), pointer;
+}
