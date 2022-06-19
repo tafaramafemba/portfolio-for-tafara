@@ -14,7 +14,6 @@ function Contact() {
           <textarea name="message" id="messagebox" cols="10" rows="10" placeholder="Enter text here"
             required maxLength={500}></textarea>
           <button type="submit" className ="touchbtn">Get in touch with me</button>
-        <span className ="error-message"></span>
       </form>
     </div>
   )

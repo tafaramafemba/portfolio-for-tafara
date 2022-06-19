@@ -10,9 +10,12 @@ function Projects() {
           {projects.map(cards => (
           <li className='project-container' key={cards.id}>
             <h2 className='title'>{cards.project}</h2>
+            <span>{cards.description}</span>
             <div className='separator'>
-            <span className='Language'>{cards.developed_in}</span>
-            <button>View More</button>
+            <span className='Language'>Language: {cards.developed_in}</span>
+            <span className='Language'>Pair_Programmed: {cards.Pair_Programmed}</span>
+            <span className='Language'>API: {cards.API}</span>
+            {/* <button>View More</button> */}
             </div>
             
           </li>))}

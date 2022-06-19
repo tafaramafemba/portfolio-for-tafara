@@ -29,6 +29,7 @@ ul {
 }
 
 .row:hover {
+  width: 100%;
   font-size: 18px;
   color: orange;
   transition: all 0.4s ease;
@@ -54,6 +55,12 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 20px;
+}
+
+.social-media:hover {
+  transition: all 0.4s ease;
+  font-size: 18px;
+  color: orange;
 }
 
 .icon {
