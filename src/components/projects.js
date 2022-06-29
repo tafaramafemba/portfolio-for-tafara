@@ -10,12 +10,12 @@ function Projects() {
           {projects.map(cards => (
           <li className='project-container' key={cards.id}>
             <h2 className='title'>{cards.project}</h2>
-            <span>{cards.description}</span>
+            <span className='descrip'>{cards.description}</span>
             <div className='separator'>
-            <span className='Language'>Language: {cards.developed_in}</span>
-            <span className='Language'>Pair_Programmed: {cards.Pair_Programmed}</span>
-            <span className='Language'>API: {cards.API}</span>
-            {/* <button>View More</button> */}
+            <p><span className='lang'>Language: </span><span className='Language'>{cards.developed_in}</span> <span className='Language'>{cards.developed_in2}</span></p>
+            <p><span className='pair'>Pair_Programmed: </span><span className='pair-prog'>{cards.Pair_Programmed}</span></p>
+            <p><span className='ipa'>API: </span><span className='api'>{cards.API}</span></p>
+            <a href={cards.Repo}><button typeof='button' className='site'>Live Demo</button></a>
             </div>
             
           </li>))}
