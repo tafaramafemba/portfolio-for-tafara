@@ -15,7 +15,7 @@ export const projects  = [
     developed_in: 'React.js',
     developed_in2: 'Redux',
     description: 'This is a bookstore application. The user can view all books, add a book and check categories.',
-    Repo: 'https://github.com/tafaramafemba/Bookstore',
+    Repo: 'https://bookstore-react-js.netlify.app/',
     Pair_Programmed: 'No',
     API: 'Yes'
   },
@@ -35,7 +35,7 @@ export const projects  = [
     developed_in: 'React.js',
     developed_in2: 'JSX',
     description: 'This is a to do list that allows the user to manage their daily tasks. Features included are setting, removing, checking and clearing tasks.',
-    Repo: 'https://github.com/tafaramafemba/react-to-do',
+    Repo: 'https://tdlt-react.netlify.app/',
     Pair_Programmed: 'No',
     API: 'No'
   },

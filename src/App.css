@@ -1,11 +1,19 @@
-.App {
-  width: 100vw;
-  display: flex;
-
-  /* gap: 20px; */
-}
-
 .body {
   margin: 0;
   padding: 0;
+}
+
+.bar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .App {
+    width: 100vw;
+    display: flex;
+  }
+
+  .bar {
+    display: block;
+  }
 }

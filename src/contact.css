@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   margin-left: 350px;
-  margin-top: 50px;
   width: 350px;
   height: 500px;
   border-radius: 20px;
@@ -12,6 +11,12 @@
   box-sizing: border-box;
   background: #000;
   box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  margin: auto;
+  margin-top: 30px;
+  justify-self: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
 }
 
 #name,
@@ -77,4 +82,21 @@ button:hover {
   background: #fff;
   color: orange;
   cursor: url('/public/hand-cursor.png'), pointer;
+}
+
+@media (min-width: 768px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    margin-top: 50px;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #000;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    position: fixed;
+  }
 }

@@ -1,0 +1,27 @@
+.menu-list {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  background-color: black;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  z-index: 1000;
+}
+
+.mrow {
+  color: #fff;
+  width: 100px;
+}
+
+@media (min-width: 768px) {
+  .menu-list {
+    display: none;
+  }
+}
