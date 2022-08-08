@@ -3,8 +3,10 @@ import Sidebar from './components/sidebar';
 import About from './components/about';
 import Projects from './components/projects';
 import Contact from './components/contact';
+import MenuBottom from './components/menu-bottom';
 import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import './App.css';
+
 
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
 <BrowserRouter>
         <div className="App">
           <Sidebar />
+          <MenuBottom />
           <div className='back'>
           <Routes>
           <Route path="/" element={<Home />}/>

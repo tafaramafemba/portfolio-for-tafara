@@ -4,15 +4,19 @@
   display: flex;
   flex-direction: column;
   margin-left: 350px;
-  margin-top: 50px;
   width: 350px;
   height: 500px;
   border-radius: 20px;
   padding: 40px;
   box-sizing: border-box;
-  background: linear-gradient(-45deg, #1d1d1d, #d2d2d2, #d3d3d3, #4d4d4d);
-  animation: gradient 15s ease infinite;
+  background: #000;
   box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  margin: auto;
+  margin-top: 30px;
+  justify-self: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
 }
 
 #name,
@@ -27,6 +31,10 @@
   box-sizing: border-box;
 }
 
+label {
+  color: #fff;
+}
+
 #messagebox {
   margin-top: 20px;
   display: block;
@@ -39,7 +47,7 @@
 }
 
 input {
-  background: #ecf0f3;
+  background: #fff;
   margin-bottom: 10px;
   margin-top: 5px;
   padding: 10px;
@@ -51,7 +59,7 @@ input {
 }
 
 textarea {
-  background: #ecf0f3;
+  background: #fff;
   padding: 6px;
   padding-left: 20px;
   height: 150px;
@@ -61,18 +69,34 @@ textarea {
 }
 
 button {
-  color: white;
+  color: #fff;
   margin-top: 20px;
   background: orange;
   height: 40px;
   border-radius: 20px;
   cursor: pointer;
   font-weight: 900;
-  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
-  transition: 0.5s;
 }
 
 button:hover {
-  box-shadow: none;
+  background: #fff;
+  color: orange;
   cursor: url('/public/hand-cursor.png'), pointer;
+}
+
+@media (min-width: 768px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    margin-top: 50px;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #000;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    position: fixed;
+  }
 }

@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@900&display=swap');
 
 .bar {
-  height: 84%;
+  height: 200vh;
   width: 400px;
   background: #000;
   color: #d3d3d3;
   padding-top: 100px;
+  overflow: hidden;
 }
 
 ul {
@@ -29,6 +30,7 @@ ul {
 }
 
 .row:hover {
+  width: 100%;
   font-size: 18px;
   color: orange;
   transition: all 0.4s ease;
@@ -54,6 +56,12 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 20px;
+}
+
+.social-media:hover {
+  transition: all 0.4s ease;
+  font-size: 18px;
+  color: orange;
 }
 
 .icon {
