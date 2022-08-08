@@ -1,5 +1,16 @@
 export const projects  = [
   {
+    id: 6,
+    project: 'SpendIt Budget App',
+    developed_in: 'Ruby on Rails',
+    developed_in2: 'JavaScript',
+    description: 'This is a website that that allows a user to create budget categories and record transactions.',
+    Repo: 'https://boiling-eyrie-21926.herokuapp.com//',
+    Pair_Programmed: 'No',
+    API: 'No'
+  },
+
+  {
     id: 1,
     project: 'Mental Health Awareness Outreach',
     developed_in: 'HTML/CSS',

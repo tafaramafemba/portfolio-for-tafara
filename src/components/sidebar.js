@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 function Sidebar() {
   return (
     <div className='bar'>
-      <ul>
+      <ul className='ul-bar'>
       <h1 className='header-text'>My Portfolio</h1>
             <Link style={{textDecoration: 'none'}} to="/">
             <li className = 'row'><div><HomeIcon /></div><div>Home</div></li>
